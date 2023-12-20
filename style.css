@@ -1,0 +1,77 @@
+body{
+
+
+}
+main img{
+    width: 50%;
+    height: 50vh;
+    margin-left: 20%;
+    position: relative;
+    margin-top: 10%;
+}
+
+
+
+.navbar{
+    height: 10vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navlinks{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left:35%;
+    top:140px;
+    position: absolute;
+  
+}
+.navlinks li{
+    list-style-type: none;
+    padding: 2px;
+  
+
+}
+.navlinks li a{
+    color: white;
+padding-left:35px;
+padding-right: 35px;
+padding-top: 10px;
+padding-bottom: 10px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.485);
+  
+    text-transform: capitalize;
+    
+
+}
+.things{
+    display: none;
+    position: absolute;
+
+}
+.things li{
+    background-color: rgba(0, 0, 0, 0.305);
+   
+    color:white;
+    padding-left: 40px;
+text-transform: capitalize;
+font-family:  sans-serif;
+padding-top: 10px;
+
+   
+}
+.things li:hover{
+    background-color: green;
+}
+.thing:hover .things{
+   margin-left:-6%;
+   margin-top: 10px;
+ display: block;
+ width: 141px;
+ 
+ 
+}
